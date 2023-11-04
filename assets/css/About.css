@@ -1,0 +1,113 @@
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+  }
+  
+  /* Colors */
+  :root {
+    --color-default: #212529;
+    --color-primary: #ce1212;
+    --color-secondary: #37373f;
+  }
+  
+  /* Smooth scroll behavior */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+  }
+  
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ec2727;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-secondary);
+  }
+  
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+ 
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 10px;
+  }
+
+
+  /* new */
+nav ul{
+    padding-bottom: 50px;
+}
+section div h3{
+    padding: 40px 10px ;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    color: var(--color-primary); 
+    font-family: var(--font-primary);
+    font-size: 40px;
+    margin-bottom:25px ;
+    
+}
+div h3{
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-primary); 
+    font-family: var(--font-primary);
+    font-size: 40px;
+}
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+  }
+#menu {
+
+   font-size: 40px;
+}
+
+
+/* Banaswadi */
+#chefs{
+    margin-top: 100px;
+}
+#gallery{
+    margin-top: 100px;
+}
+.card{
+    padding: 30px;
+}
+.card div p{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+/* Awards */
+
